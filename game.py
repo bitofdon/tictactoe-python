@@ -22,5 +22,5 @@ def  game_board(game_map, player=0, row=0, column=0, just_display=False):
 		print("Something went very wrong", e)
 
 game = game_board(game, just_display=True)
-game = game_board(game, player=1, row=3, column=1)
+game = game_board(game, player=1, row=2, column=1)
 
